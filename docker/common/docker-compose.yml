@@ -1,0 +1,6 @@
+version: '2'
+services:
+  helloservice:
+      image: pra/hello-service:hello1
+      ports:
+        - "8080:8080"
