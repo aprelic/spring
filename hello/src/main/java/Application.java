@@ -31,6 +31,6 @@ public class Application {
 
     @RequestMapping(value = "/home", method = RequestMethod.GET)
     public String home() {
-        return String.format("{\"message\":\"Home Page\"}");
+        return "{\"message\":\"Home Page\"}";
     }
 }
